@@ -57,13 +57,13 @@ class Login extends Component {
                                 <Input onChange={(event) => {
                                     this.getUser(event)
                                 }}
-                                       autoComplete="off" placeholder={'Kullanıcı Adı'} id='un'/>
+                                       autoComplete="off" placeholder={'Kullanıcı Adı'} id='un' type="text"/>
                             </div>
                             <div className="field">
                                 <Input onChange={(event) => {
                                     this.getPass(event)
                                 }}
-                                       autoComplete="off" placeholder={'Parola'} id='ps'/>
+                                       autoComplete="off" placeholder={'Parola'} id='ps' type="password"/>
                             </div>
                             <div>
                                 <Button onClick={this.submit} fluid color='green'>Giriş</Button>
