@@ -1,6 +1,6 @@
-# metro-react-redux-login
+# meteor-react-redux-login
 
-Metro, React, Redux, Semantic UI
+Meteor, React, Redux, Semantic UI
 
 # Screenshots
 
